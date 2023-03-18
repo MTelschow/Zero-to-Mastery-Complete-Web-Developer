@@ -2,6 +2,7 @@ body {
     margin: auto 0;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .zone { 
@@ -21,6 +22,12 @@ body {
 }
 
 /* NAV */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav{
     display: flex;
     list-style: none;
@@ -55,6 +62,9 @@ a {
     justify-content: center;
     align-items: center;
     height: 50vh;
+}
+.container > img{
+    height: 100%;
 }
 
 /* PROJECT GRID */
