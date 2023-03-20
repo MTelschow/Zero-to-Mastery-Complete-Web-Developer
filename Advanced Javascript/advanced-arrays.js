@@ -44,6 +44,9 @@ const filterArray = array.filter(user => user.team === "red");
 console.log("filter", filterArray);
 
 //Find out the total score of all users using reduce
+const reduceArray = array.reduce((acc, user) => acc + user.score, 0);
+console.log("reduce", reduceArray);
+
 
 // (1), what is the value of i?
 // (2), Make this map function pure:
