@@ -29,13 +29,15 @@ const array = [
 
 //Create an array using forEach that has all the usernames with a "!" to each of the usernames
 
-const newArray = [];
-array.forEach(user => {newArray.push(`${user.username}!`)});
-console.log("forEach", newArray);
+const forEachArray = [];
+array.forEach(user => {forEachArray.push(`${user.username}!`)});
+console.log("forEach", forEachArray);
 
 
 //Create an array using map that has all the usernames with a "? to each of the usernames
 
+const mapArray = array.map(user => user.username + "?");
+console.log("map", mapArray);
 
 //Filter the array to only include users who are on team: red
 
