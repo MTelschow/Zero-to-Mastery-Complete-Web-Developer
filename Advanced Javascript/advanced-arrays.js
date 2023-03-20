@@ -40,7 +40,8 @@ const mapArray = array.map(user => user.username + "?");
 console.log("map", mapArray);
 
 //Filter the array to only include users who are on team: red
-
+const filterArray = array.filter(user => user.team === "red");
+console.log("filter", filterArray);
 
 //Find out the total score of all users using reduce
 
