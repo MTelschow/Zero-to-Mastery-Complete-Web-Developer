@@ -2,6 +2,6 @@
 import {bigNumber} from './script2.js'
 
 const a = bigNumber;
-const b = 5;
+const b = 3;
 
 console.log(a + b);
